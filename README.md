@@ -1,7 +1,7 @@
 # 💫 About Me:
 👋 Hello! I'm Saar Sharir, a passionate Data Analyst and Agronomist with extensive experience in the agricultural industry and environmental sectors. I specialize in data mining, statistical analysis, and data visualization, focusing on data-driven solutions that support strategic decision-making and sustainability.<br><br>🌱 Experience:<br>Led advanced statistical analyses and data modeling in the Forestry Department at Jewish National Foundation (KKL-JNF), providing actionable insights for senior management.<br>Developed and maintained interactive dashboards and data visualization tools to improve data access across departments.<br>Managed and optimized information systems for agriculture, project management, finance, and real estate.<br><br>🛠 Skills & Tools:<br>Data Mining, Power BI, SQL Server<br>Python: Pandas, Flask, Machine Learning<br>Hadoop Ecosystem, Hive, Impala<br>Agronomic Consulting and Project Management<br><br>🌍 Interests:<br>I’m particularly interested in data science, machine learning, and their applications in agriculture and environmental conservation.<br><br>🎮 Hobbies:<br>When I'm not working, I enjoy gaming and exploring innovative applications of data mining.
 
-
+ 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/saarsharir1/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/saar-sharir-196b99203) 
 
