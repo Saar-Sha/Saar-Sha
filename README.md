@@ -18,7 +18,7 @@
 | #showcase | 2 |
 <!-- TAG_DASHBOARD_END -->
 
-<!-- #portfolio #showcase -->
+<!-- #portfolio -->
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
