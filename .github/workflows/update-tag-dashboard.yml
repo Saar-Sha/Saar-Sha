@@ -1,0 +1,35 @@
+name: 🔄 Update Repo Tag Dashboard
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  scan-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install PyGithub
+        run: pip install PyGithub
+
+      - name: Run Tag Scanner
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Saar-Sha
+        run: python .github/scripts/tag_scanner.py
+
+      - name: Commit Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "📊 Update project tag summary"
+          git push || echo "No changes to commit."
