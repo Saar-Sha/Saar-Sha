@@ -10,7 +10,11 @@ user = g.get_user()
 
 counters = {}
 
-for repo in user.get_repos():
+repo_name = os.getenv('GITHUB_REPOSITORY')  # e.g. 'Saar-Sha/Saar-Sha'
+repo = g.get_repo(repo_name)
+repos = [repo]
+
+for repo in repos:
     if repo.private:
         continue
     contents = ''
