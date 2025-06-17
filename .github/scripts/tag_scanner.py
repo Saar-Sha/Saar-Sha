@@ -35,6 +35,7 @@ for repo in repos:
         tag = tag.lower()
         counters[tag] = counters.get(tag, 0) + 1
 
+    print("Tags Found:", counters)
 with open('README.md', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
