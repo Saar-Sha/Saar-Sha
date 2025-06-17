@@ -14,7 +14,7 @@
 <!-- TAG_DASHBOARD_START -->
 | Tag | Count |
 |------|-------|
-| #portfolio | 2 |
+| #portfolio | 4 |
 | #showcase | 2 |
 <!-- TAG_DASHBOARD_END -->
 
