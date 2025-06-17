@@ -12,6 +12,10 @@
 ## 📊 Work Summary
 
 <!-- TAG_DASHBOARD_START -->
+| Tag | Count |
+|------|-------|
+| #portfolio | 2 |
+| #showcase | 2 |
 <!-- TAG_DASHBOARD_END -->
 
 <!-- #portfolio #showcase -->
