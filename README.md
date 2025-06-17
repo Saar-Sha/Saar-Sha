@@ -14,6 +14,8 @@
 <!-- TAG_DASHBOARD_START -->
 <!-- TAG_DASHBOARD_END -->
 
+<!-- #portfolio #showcase -->
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
