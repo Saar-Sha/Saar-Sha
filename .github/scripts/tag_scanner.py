@@ -9,33 +9,30 @@ g = Github(token)
 user = g.get_user()
 
 counters = {}
+all_repos_scanned = set()
 
-repo_name = os.getenv('GITHUB_REPOSITORY')  # e.g. 'Saar-Sha/Saar-Sha'
-repo = g.get_repo(repo_name)
-repos = [repo]
-
-for repo in repos:
+# Get all public repos
+for repo in user.get_repos(visibility='public'):
     if repo.private:
         continue
-    contents = ''
     try:
         readme = repo.get_readme()
         contents = readme.decoded_content.decode()
+        tags_in_repo = set()
+        for tag in TAG_PATTERN.findall(contents):
+            tag = tag.lower()
+            tags_in_repo.add(tag)
+        for tag in tags_in_repo:
+            if tag not in counters:
+                counters[tag] = set()
+            counters[tag].add(repo.full_name)
+        all_repos_scanned.add(repo.full_name)
     except:
-        pass
+        continue
 
-    try:
-        for file in repo.get_contents(''):
-            if file.path.endswith('.py') or file.path.endswith('.md'):
-                contents += file.decoded_content.decode()
-    except:
-        pass
+# Convert sets to counts
+final_counts = {tag: len(repos) for tag, repos in counters.items()}
 
-    for tag in TAG_PATTERN.findall(contents):
-        tag = tag.lower()
-        counters[tag] = counters.get(tag, 0) + 1
-
-    print("Tags Found:", counters)
 with open('README.md', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
@@ -43,8 +40,9 @@ start_marker = '<!-- TAG_DASHBOARD_START -->'
 end_marker = '<!-- TAG_DASHBOARD_END -->'
 
 new_block = start_marker + '\n'
+new_block += f'Total Repos Scanned: {len(all_repos_scanned)}\n\n'
 new_block += '| Tag | Count |\n|------|-------|\n'
-for tag, count in sorted(counters.items(), key=lambda x: -x[1]):
+for tag, count in sorted(final_counts.items(), key=lambda x: -x[1]):
     new_block += f'| #{tag} | {count} |\n'
 new_block += end_marker + '\n'
 
