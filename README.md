@@ -1,5 +1,30 @@
-# 💫 About Me:
-👋 Hello! I'm Saar Sharir, a passionate Data Analyst and Agronomist with extensive experience in the agricultural industry and environmental sectors. I specialize in data mining, statistical analysis, and data visualization, focusing on data-driven solutions that support strategic decision-making and sustainability.<br><br>🌱 Experience:<br>Led advanced statistical analyses and data modeling in the Forestry Department at Jewish National Foundation (KKL-JNF), providing actionable insights for senior management.<br>Developed and maintained interactive dashboards and data visualization tools to improve data access across departments.<br>Managed and optimized information systems for agriculture, project management, finance, and real estate.<br><br>🛠 Skills & Tools:<br>Data Mining, Power BI, SQL Server<br>Python: Pandas, Flask, Machine Learning<br>Hadoop Ecosystem, Hive, Impala<br>Agronomic Consulting and Project Management<br><br>🌍 Interests:<br>I’m particularly interested in data science, machine learning, and their applications in agriculture and environmental conservation.<br><br>🎮 Hobbies:<br>When I'm not working, I enjoy gaming and exploring innovative applications of data mining.
+👋 **Hello! I'm Saar Sharir**, a Data Analyst and Agronomist with extensive experience across the **agricultural and environmental sectors**. I specialize in **data mining, statistical analysis, machine learning, and data visualization**, delivering data-driven solutions that support **strategic decision-making, operational optimization, and sustainability**.
+
+<br><br>
+
+🌱 **Experience:**  
+Led advanced statistical analyses and data modeling in the **Forestry Department at the Jewish National Fund (KKL-JNF)**, providing actionable insights for senior management and policy planning.  
+Designed and maintained **interactive dashboards and analytical reports** to improve data accessibility and decision-making across departments.  
+Managed and optimized **information systems** spanning agriculture, project management, finance, and real estate domains.
+
+<br><br>
+
+🛠 **Skills & Tools:**  
+- **Data Analysis & Engineering:** Data Mining, SQL Server, PostgreSQL, Power BI  
+- **Machine Learning & Statistics:** Feature Engineering, Model Evaluation, Regression & Tree-based Models, Exploratory Data Analysis (EDA)  
+- **Python:** Pandas, NumPy, scikit-learn, Flask  
+- **Big Data:** Hadoop Ecosystem, Hive, Impala  
+- **Domain Expertise:** Agronomic Consulting, Environmental Analytics, Project Management  
+
+<br><br>
+
+🌍 **Interests:**  
+Data science and machine learning applications in **agriculture, forestry, and environmental conservation**, with a focus on translating complex data into practical, real-world insights.
+
+<br><br>
+
+🎮 **Hobbies:**  
+When I'm not working, I enjoy gaming and exploring innovative applications of **data mining and analytics**.
 
  
 ## 🌐 Socials:
@@ -19,9 +44,6 @@
 <!-- TAG_DASHBOARD_END -->
 
 <!-- #portfolio -->
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Saar-Sha&icon=5&color=2)](https://visitcount.itsvg.in)
