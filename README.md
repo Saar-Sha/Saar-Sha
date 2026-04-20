@@ -24,7 +24,7 @@ Data science and machine learning applications in **agriculture, forestry, and e
 <br><br>
 
 🎮 **Hobbies:**  
-When I'm not working, I enjoy gaming and exploring innovative applications of **data mining and analytics**.
+When I'm not working, I enjoy spending time with my sons.
 
  
 ## 🌐 Socials:
